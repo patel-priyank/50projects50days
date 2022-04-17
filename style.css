@@ -8,3 +8,27 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #222;
+  font-family: sans-serif;
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  background-color: skyblue;
+  margin: 1rem 0;
+  border-radius: 0.25rem;
+}
+
+a {
+  color: #000;
+  display: block;
+  padding: 0.75rem 1.5rem;
+}
