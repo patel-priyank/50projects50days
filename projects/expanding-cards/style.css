@@ -33,14 +33,13 @@ body {
   border-radius: 3rem;
   position: relative;
   background-position: center;
-  transition: all 700ms ease-in;
+  transition: width 700ms ease-in;
 }
 
 .image span {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
@@ -48,7 +47,8 @@ body {
   overflow: hidden;
   opacity: 0;
   width: 0;
-  transition: all 400ms ease-in 300ms;
+  pointer-events: none;
+  transition: opacity 400ms ease-in 300ms;
 }
 
 .image.active {
