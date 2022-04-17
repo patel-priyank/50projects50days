@@ -45,7 +45,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 10;
-  transition: all 500ms ease;
+  transition: border 500ms ease, color 500ms ease;
 }
 
 .circle.active {
@@ -66,7 +66,7 @@ body {
   height: 100%;
   width: 0;
   background-color: #60aaff;
-  transition: all 500ms ease;
+  transition: width 500ms ease;
 }
 
 button {
